@@ -11,6 +11,8 @@ npm install tsv-i18njs --save-dev
 
 ## Usage
 
+Create a translation sheet like [this one](https://docs.google.com/spreadsheets/d/14PhEZBa0rma41AsiFCH-Cxg8Fai8STacZtPr70jVpwQ/edit#gid=0).
+
 ```shell
 node_modules/.bin/tsv-i18njs.js \
   'https://docs.google.com/spreadsheets/d/e/2PACX-1vSUUk1_F-VxePs-exsB6R2F3fVIcAdxRRVLxgxz0uV4_Y0xPFDfMrLjvMAHQeYO4EXelqaJ2fgiNmF2/pub?gid=0&single=true&output=tsv' \
