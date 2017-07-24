@@ -1,0 +1,32 @@
+{
+  "name": "tsv-i18njs",
+  "version": "0.1.2",
+  "description": "convert TSV into i18n-js format translation files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ku/tsv-i18njs.git"
+  },
+  "keywords": [
+    "tsv",
+    "i18n-js",
+    "converter",
+    "google",
+    "spreadsheet"
+  ],
+  "author": "Kentaro ku KUMAGAI",
+  "bin": {
+    "snippet": "./bin/tsv-i18njs.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "tsv": "^0.2.0"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "rewire": "^2.5.2"
+  }
+}
