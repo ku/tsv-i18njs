@@ -11,7 +11,11 @@ npm install tsv-i18njs --save-dev
 
 ## Usage
 
-Create a translation sheet like [this one](https://docs.google.com/spreadsheets/d/14PhEZBa0rma41AsiFCH-Cxg8Fai8STacZtPr70jVpwQ/edit#gid=0).
+Create a translation sheet on Google Sheets like [this one](https://docs.google.com/spreadsheets/d/14PhEZBa0rma41AsiFCH-Cxg8Fai8STacZtPr70jVpwQ/edit#gid=0).
+
+![translation sheet](http://68.media.tumblr.com/66a49436ed984978dbb63fc2d61cdda0/tumblr_inline_otl900xTED1sj4w1i_540.png)
+
+Obtain the TSV URL of the sheet by following menu `[File] → [Publish to the web]` on Google Sheets and run the command.
 
 ```shell
 node_modules/.bin/tsv-i18njs.js \
@@ -19,9 +23,7 @@ node_modules/.bin/tsv-i18njs.js \
   ./
 ```
 
-You can obtain the TSV URL by following menu `[File] → [Publish to the web]` on Google Sheets.
-
-The command generates i18n-js style translation files ready to use with i18n-js in current directory.
+It generates i18n-js style translation files ready to use with i18n-js in current directory.
 
 ```javascript
 const I18n = require("i18n-js")
